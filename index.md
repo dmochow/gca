@@ -4,6 +4,10 @@ GCA is an unsupervised learning algorithm that automatically identifies Granger 
 
 Here you can find the latest implementations, beginning with the original Matlab code.
 
+```markdown
+[What,Vhat,G_gca,stats] = runGcaTrAlt(X,L,P,maxIters,maxcond)
+```
+
 You can use the [editor on GitHub](https://github.com/dmochow/gca/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
@@ -11,6 +15,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+[What,Vhat,G_gca,stats] = runGcaTrAlt(X,L,P,maxIters,maxcond)
+```
 
 ```markdown
 Syntax highlighted code block
