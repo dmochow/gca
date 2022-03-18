@@ -5,7 +5,7 @@ GCA is an unsupervised learning algorithm that automatically identifies Granger 
 Here you can find the latest implementations, beginning with the original Matlab code.
 
 ```markdown
-[What,Vhat,G_gca,stats] = runGcaTrAlt(X,L,P,maxIters,maxcond)
+[W,V] = runGcaTrAlt(X)
 ```
 
 You can use the [editor on GitHub](https://github.com/dmochow/gca/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
