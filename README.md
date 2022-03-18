@@ -4,5 +4,5 @@ Quick start:
 (1)
 (2)
 (3)
-dmochow.github.io/gca
+[For documentation and demos, click here](dmochow.github.io/gca)
 
