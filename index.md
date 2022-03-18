@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to the Granger Components Analysis Homepage
+
+GCA is an unsupervised learning algorithm that automatically identifies Granger causal connections in your data!
+
+Here you can find the latest implementations, beginning with the original Matlab code.
 
 You can use the [editor on GitHub](https://github.com/dmochow/gca/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
