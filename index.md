@@ -37,6 +37,7 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](https://github.com/dmochow/gca/blob/main/gca_img.png)
 ```
+![alt text](https://github.com/dmochow/gca/blob/main/gca_img.png?raw=true)
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
