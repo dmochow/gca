@@ -1,4 +1,4 @@
-## Welcome to the Granger Components Analysis Homepage
+## Granger Components Analysis Homepage
 
 GCA is an unsupervised learning algorithm that automatically identifies Granger causal connections in your data!
 
