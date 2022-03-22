@@ -1,6 +1,2 @@
-# gca
-Home of XYZ
-Quick start:
-(1)
-(2)
-(3)
+[Project is hosted here](https://dmochow.github.io/gca)
+
