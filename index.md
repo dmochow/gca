@@ -4,7 +4,7 @@ GCA is an unsupervised learning algorithm that automatically identifies Granger 
 
 The preprint is now available on [arXiv](https://arxiv.org/abs/2203.10679)
 
-Here you will find the latest features, beginning with the original Matlab code.
+[Here](https://github.com/dmochow/gca) you will find the latest features, beginning with the original Matlab code.
 
 ### Load the provided simulated data
 ```markdown
