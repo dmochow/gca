@@ -19,7 +19,7 @@ data=load('rez_simulated_var_2pair_15-Mar-2022.mat');
 figure; plot(stats.fvals_t); ylabel('-G'); legend('Pair 1', 'Pair 2');
 ```
 
-![demo result](/assets/img/gca_img.png)
+![demo result](/assets/img/demo_result.png)
 
 ![<img src="https://github.com/dmochow/gca/blob/main/arxiv-logo-1.png">](https://arxiv.org/abs/2203.10679)
 
