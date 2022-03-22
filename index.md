@@ -8,6 +8,9 @@ Here you can find the latest implementations, beginning with the original Matlab
 [W,V] = runGcaTrAlt(X)
 ```
 
+[<img src="https://github.com/dmochow/gca/blob/main/arxiv-logo-1.png">](https://arxiv.org/abs/2203.10679)
+
+
 You can use the [editor on GitHub](https://github.com/dmochow/gca/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
