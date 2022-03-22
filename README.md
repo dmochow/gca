@@ -1,4 +1,4 @@
-[##Project is hosted here](https://dmochow.github.io/gca)
+[Project is hosted here](https://dmochow.github.io/gca)
 
 ## Quickstart:
 ### (1) run demo_simulated_data.m
