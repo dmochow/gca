@@ -5,4 +5,4 @@ In MATLAB's command window, enter:
 ```markdown
 demo_simulated_data.m
 ```
-### if it doesn't run all the way through to the figures, please indicate the error message under "Issues"
+If the script fails to run all the way through to the figures, please use the "Issues" tab above. 
