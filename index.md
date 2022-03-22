@@ -4,10 +4,6 @@ GCA is an unsupervised learning algorithm that automatically identifies Granger 
 
 Here you can find the latest implementations, beginning with the original Matlab code.
 
-```markdown
-[W,V] = runGca(X)
-```
-
 ### load the provided simulated data
 ```markdown
 data=load('rez_simulated_var_2pair_15-Mar-2022.mat');
@@ -20,8 +16,10 @@ data=load('rez_simulated_var_2pair_15-Mar-2022.mat');
 
 ### display results
 ```markdown
-[W,V,G,stats]=runGca(data.figStats.X,3,2);
+figure; plot(stats.fvals_t); ylabel('-G'); legend('Pair 1', 'Pair 2');
 ```
+
+![demo result](https://github.com/dmochow/gca/blob/main/demo_result.png)
 
 [comment]: [<img src="https://github.com/dmochow/gca/blob/main/arxiv-logo-1.png">](https://arxiv.org/abs/2203.10679)
 
