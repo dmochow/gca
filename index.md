@@ -4,26 +4,25 @@ GCA is an unsupervised learning algorithm that automatically identifies Granger 
 
 Here you can find the latest implementations, beginning with the original Matlab code.
 
-### load the provided simulated data
+### Load the provided simulated data
 ```markdown
 data=load('rez_simulated_var_2pair_15-Mar-2022.mat');
 ```
 
-### run the algorithm on a single realization of a VAR(3) process
+### Run the algorithm on a single realization of a VAR(3) process
 ```markdown
 [W,V,G,stats]=runGca(data.figStats.X,3,2);
 ```
 
-### display results
+### Display results to show convergence for first two component pairs
 ```markdown
 figure; plot(stats.fvals_t); ylabel('-G'); legend('Pair 1', 'Pair 2');
 ```
 
 ![demo result](https://github.com/dmochow/gca/blob/main/demo_result.png)
 
-[comment]: [<img src="https://github.com/dmochow/gca/blob/main/arxiv-logo-1.png">](https://arxiv.org/abs/2203.10679)
+![<img src="https://github.com/dmochow/gca/blob/main/arxiv-logo-1.png">](https://arxiv.org/abs/2203.10679)
 
-[comment]: You can use the [editor on GitHub](https://github.com/dmochow/gca/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 
 
