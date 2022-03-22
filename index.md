@@ -22,7 +22,7 @@ figure; plot(stats.fvals_t); ylabel('-G'); legend('Pair 1', 'Pair 2');
 ![demo result](/assets/img/demo_result.png)
 
 ### The preprint is available online!
-![<img src="/assets/img/arxiv-logo-1.png">](https://github.com/dmochow/gca/blob/gh-pages/assets/img/arxiv-logo-1.png)
+![<img src="/assets/img/arxiv-logo-1.png">](https://arxiv.org/abs/2203.10679)
 
 
 
