@@ -6,13 +6,15 @@
 % Proceedings of the national academy of sciences, 114(34), E7063-E7072.
 % 
 % run GCA and determine whether the underlying structure is recovered 
+%
+% this code generates the data of Figure 2 in the arXiv preprint
 
 clear all; close all; clc
 addpath(genpath('.'));
 rng(1);
 
 %% figure options
-LOAD_DATA=1;
+LOAD_DATA=0;
 nRuns=100;
 fs=14; % font size in plots
 colors=cbrewer('qual','Set2',8);
@@ -35,21 +37,6 @@ else
         toc
     end
 end
-
-%% assign variables to make figure;
-figStats=stats(nRuns); % pick which one you want to use for figure
-S=figStats.S;
-X=figStats.X;
-yhat=figStats.yhat;
-zhat=figStats.zhat;
-G_src=figStats.G_src;
-G_gca=figStats.G_gca;
-G_sensor=figStats.G_sensor;
-N=size(figStats.X,1);
-nSensorPairs=size(figStats.G_sensor,1);
-G_src_2D=figStats.G_src_2D;
-G_sensor_2D=figStats.G_sensor_2D;
-G_gca_2D=figStats.G_gca_2D;
 
 %% for each run, figure out the performance, keeping in mind the ambiguity in the order of the recovered pairs
 isSwapped=nan(nRuns,1);
@@ -137,6 +124,22 @@ pval2=signrank(ggca(2,:),gobs(maxind,:))
 % measure difference between src G and observed G
 pval3=signrank(gsrc(1,:),gobs(maxind,:))
 pval4=signrank(gsrc(2,:),gobs(maxind,:))
+
+%% assign variables to make figure;
+idx2show=find(~isSwapped,1,'last');
+figStats=stats(idx2show); % pick which one you want to use for figure
+S=figStats.S;
+X=figStats.X;
+yhat=figStats.yhat;
+zhat=figStats.zhat;
+G_src=figStats.G_src;
+G_gca=figStats.G_gca;
+G_sensor=figStats.G_sensor;
+N=size(figStats.X,1);
+nSensorPairs=size(figStats.G_sensor,1);
+G_src_2D=figStats.G_src_2D;
+G_sensor_2D=figStats.G_sensor_2D;
+G_gca_2D=figStats.G_gca_2D;
 
 % 12.23.21
 % mixing matrices
