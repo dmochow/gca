@@ -165,3 +165,12 @@ def gca_obj(x, blkR1, Rtilde, blkR1r, Rtilder):
     G = 0.5*(Gf+Gr)
 
     return G
+
+def gca_obj_v(v, w, blkR1, Rtilde, blkR1r, Rtilder):
+    return gca_obj(np.concatenate( (v, w) ,axis=0 ), blkR1, Rtilde, blkR1r, Rtilder)
+
+def gca_obj_w(w, v, blkR1, Rtilde, blkR1r, Rtilder):
+    return gca_obj(np.concatenate( (v, w) ,axis=0 ), blkR1, Rtilde, blkR1r, Rtilder)
+
+def unit_norm(x):
+    return x.T@x
