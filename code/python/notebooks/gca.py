@@ -154,13 +154,13 @@ def gca_obj(x, blkR1, Rtilde, blkR1r, Rtilder):
     L=blkR1.shape[0]//D
 
     # forward time objective
-    Gf = np.log(phi_f(v,w,blkR1,Rtilde,L)) - np.log(phi_r(v,blkR1,Rtilde,L))
-    #Gf = phi_f(v,w,blkR1,Rtilde,L)/phi_r(v,blkR1,Rtilde,L) - 1
+    #Gf = np.log(phi_f(v,w,blkR1,Rtilde,L)) - np.log(phi_r(v,blkR1,Rtilde,L))
+    Gf = phi_f(v,w,blkR1,Rtilde,L)/phi_r(v,blkR1,Rtilde,L) - 1
 
     # reverse time objective
     # note that v and w are swapped here on purpose!
-    Gr = np.log(phi_f(w,v,blkR1r,Rtilder,L)) - np.log(phi_r(w,blkR1r,Rtilder,L))
-    #Gr = phi_f(w,v,blkR1r,Rtilder,L)/phi_r(w,blkR1r,Rtilder,L) - 1
+    #Gr = np.log(phi_f(w,v,blkR1r,Rtilder,L)) - np.log(phi_r(w,blkR1r,Rtilder,L))
+    Gr = phi_f(w,v,blkR1r,Rtilder,L)/phi_r(w,blkR1r,Rtilder,L) - 1
 
     G = 0.5*(Gf+Gr)
 
