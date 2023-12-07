@@ -173,4 +173,4 @@ def gca_obj_w(w, v, blkR1, Rtilde, blkR1r, Rtilder):
     return gca_obj(np.concatenate( (v, w) ,axis=0 ), blkR1, Rtilde, blkR1r, Rtilder)
 
 def unit_norm(x):
-    return x.T@x
+    return x.T@x-1
