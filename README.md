@@ -17,6 +17,6 @@ The core function is [runGcaTrAlt.m](code/matlab/runGcaTrAlt.m).
 
 Disclaimer: this is a work-in-progress. 
 
-A demonstration of how to apply GCA to simulated VAR(3) data is provided as a Jupyter notebook [here](code/python/demo_gca.ipynb)
+A demonstration of how to apply GCA to simulated VAR(3) data is provided as a Jupyter notebook [here](code/python/notebooks/demo_gca.ipynb)
 
 The core functions required to implement GCA in Python are [gca.py](code/python/gca.py).
